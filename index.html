@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+  .navbar{
+      width: 77%;
+     height: 200px;
+      display: flex;
+      background-color: blue;
+      margin: auto;
+      border-radius: 10px;
+     
+  }
+  .navbar>div:nth-child(1){
+    /* border: 1px solid red; */
+      display: flex;
+      width: 50%;
+      text-align: center;
+     
+      display: block;
+      margin: auto;
+      color: white;
+      
+  }
+  .navbar>div:nth-child(1)>button{
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 10px;
+  }
+  .navbar>div:nth-child(2){
+      /* border: 1px solid red; */
+      display: flex;
+      width: 50%;
+      text-align: center;
+      margin: auto;
+      margin-left: 10%;
+      
+  }
+  .navbar>div:nth-child(2)>img{
+      display: flex;
+      width: 60%;
+      
+  }
+
+  /* service */
+  .service{
+      /* border: 1px solid red; */
+      width: 60%;
+     display: flex;
+     gap: 20px;
+     margin: auto;
+     margin-right: 30%;
+     margin-top: 20px;
+  }
+  .service>div{
+      /* border: 1px solid blue; */
+      
+      text-align: center;
+      
+      
+     
+  }
+  .service>div>img{
+      width: 200px;
+     
+  }
+   .service>div>div{
+       /* border: 1px solid red; */
+       height: 100px;
+       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+       padding: 20px;
+       text-align: center;
+       margin: auto;
+   }
+   .service>div>div>h1{
+       font-size: 20px;
+   }
+   .service>div>div>p{
+       font-size: 20px;
+       color: gray;
+   }
+
+
+
+   h1,p{
+       text-align: center;
+   }
+
+   .work{
+       /* border: 1px solid red; */
+       width: 78%;
+       display: grid;
+       grid-template-columns:repeat(4,1fr);
+       grid-template-rows: repeat(2,1fr);
+       gap:  30px;
+       margin: auto;
+       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+   }
+   .work>div>img{
+       width: 250px;
+   }
+   .work>div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   }
+
+
+   /* @media all and (min-width: 768px) and (max-width: 1024px) {
+        .navbar {
+            
+            width: 100%;
+          
+        }
+    } */
+
+    @media all and (min-width: 480px) and (max-width: 720px) {
+        
+        .work{grid-template-columns:repeat(2,1fr);
+       grid-template-rows: repeat(2,1fr);
+          
+        }
+        .service{
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2,1fr);
+           
+        }
+        .navbar{
+            width: 77%;
+        }
+    }
+    @media all and (min-width: 320px) and (max-width: 479px) {
+        .work{grid-template-columns:repeat(1,1fr);
+       grid-template-rows: repeat(1,1fr);
+          
+        }
+        .service{
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(1,ifr);
+            margin: auto;
+           
+        }
+        .navbar{
+            width: 77%;
+        }
+    }
+
+    
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div>
+            <h1>You Are In Safe Hand</h1>
+            <p>Chose The Expert In end to end surgical care</p>
+            <button>Know More</button>
+        </div>
+
+        <div>
+            <img src="https://www.practostatic.com/consumer-home/practo-care/1631634827/dweb_hero_banner.png" alt="error">
+            
+        </div>
+    </div>
+    <!-- service -->
+    <div class="service">
+        <div>
+         <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="error">
+         <div>
+            <h1>Instant Video consultation</h1>
+            <p>Connet Within 60 sec</p>
+        </div>
+        </div>
+        <div>
+            <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="error">
+            <div>
+                <h1>Instant Video consultation</h1>
+                <p>Connet Within 60 sec</p>
+            </div>
+        </div>
+        <div>
+            <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="error">
+            <div>
+                <h1>Instant Video consultation</h1>
+                <p>Connet Within 60 sec</p>
+            </div>
+        </div>
+        <div>
+            <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="error">
+            <div>
+                <h1>Instant Video consultation</h1>
+                <p>Connet Within 60 sec</p>
+            </div>
+        </div>
+        <div>
+            <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="error">
+            <div>
+                <h1>Instant Video consultation</h1>
+                <p>Connet Within 60 sec</p>
+            </div>
+        </div>
+        <div>
+            <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="error">
+            <div>
+                <h1>Instant Video consultation</h1>
+                <p>Connet Within 60 sec</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- work -->
+    <h1>Book and Appartment for An In - Clinic consultation</h1>
+    <p>Find Exprience Doctors Across all specalist</p>
+  <div class="work">
+    <div>
+        <img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="error">
+    </div>
+    <div>
+        <img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="error">
+    </div>
+    <div>
+        <img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="error">
+    </div>
+    <div>
+        <img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="error">
+    </div>
+    <div>
+        <img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="error">
+    </div>
+    <div>
+        <img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="error">
+    </div>
+    <div>
+        <img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="error">
+    </div>
+    <div>
+        <img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="error">
+    </div>
+    </div>
+    
+</body>
+</html>
